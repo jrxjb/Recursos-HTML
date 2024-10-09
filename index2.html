@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 
 <html lang="es">
+<main>
     <!-- Usando la etiqueta strong -->
+
 <H2> Etiqueta Strong</H2>
 
 <p> aqui esta con strong <strong>Este texto es con strong</strong></p>
@@ -32,15 +34,47 @@ botones de radio
     <input type="radio"> interior
     <input type="radio"> Exterior
 </form>
-<h2>Otro formulario</h2>
-<form>
-    <!-- Con name se crea un grupo de radio y de esa manera se escoje uno solo  -->
-    <p> Aqui si tocas el texto tambien se marca </p>
-    <p>formulario</p>
-    <label for="Selecionar"> <input id="Selecionar"type="radio" name="botones1"> Selecionar </label> 
-    <label for="interior">   <input id="interior"  type="radio" name="botones1"> interior   </label>
-    <label for="Exterior">   <input id="Exterior"  type="radio" name="botones1"> Exterior   </label>
-</form>
+<div>
+    <h2>Otro formulario</h2>
+    <form>
+        <!-- Con name se crea un grupo de radio y de esa manera se escoje uno solo  -->
+        <!-- Para hacer los saltos de linear se usa br -->
+        <p> Aqui si tocas el texto tambien se marca </p>
+        <p>formulario</p>
+        <label for="Selecionar"> <input id="Selecionar"type="radio" name="botones1"> Selecionar </label>
+        <br> 
+        <label for="interior">   <input id="interior"  type="radio" name="botones1"> interior   </label>
+        <br>
+        <!-- con el atributo checked se eda una opcion marcada  -->
+        <label for="Exterior">   <input id="Exterior"  type="radio" name="botones1" checked> Exterior   </label>
+    </form>
+
+    <!-- Botones checkbox -->
+
+    <form>
+        <p>Con checkbox siempre se puede tener selccion multiple para que sea individual es type radio </p>
+        <p>Botones checkbox</p>
+        <label for="Opcion1"> <input id="Opcion1" type="checkbox" name="BotonesCB"> Opción1</label>
+        <br>
+        <label for="Opcion2"> <input id="Opcion2" type="checkbox" name="BotonesCB"> Opción2</label>
+    </form>
+    <form>
+        <p>Atributo value sirve para enviar el valor</p>
+        <label for="enviar1"> <input id="enviar1" type="radio" name="BotonesEv" value="envia1" > Enviar 1</label>
+        <br>
+        <label for="enviar2"> <input id="enviar2" type="radio" name="BotonesEv" value="enviar2" > Enviar 2</label>
+
+    </form>
+</div>   
+</main>
+<!-- pie de pagina -->
+<footer> 
+         <p>Sin derecho de autor José bustamante 
+         </p>
+         <p> 
+         <a href="https://github.com/jrxjb" target="_blank" rel = "noopener noreferrer">Aqui mi github https://github.com/jrxjb</a>
+        </p>
+</footer>
 
 
 </html>
