@@ -8,3 +8,56 @@ p,
 ol{
     color:darkorange;
 }
+
+/* tamaño de las imagenes */
+img{
+width: 400px;
+}
+
+.class_img_JyA{
+    width: 200px;
+    border-width: 10px;
+    border-color: blue;
+    border-style: solid; 
+}
+
+.class_img_ojo{
+width: 200;
+border-color:purple;
+border-width: 10px;
+border-style:groove
+}
+
+/* 4 bordes */
+.class_img_programacion{
+    width: 200;
+    border-color:coral blue red purple;
+    border-width: 10px;
+    border-style:solid dashed dotted double;
+    }
+    
+/* bordes redondiados */
+
+.bordes-redondiados{
+border-radius: 20px;
+width: 300px;
+}
+.bordes-redondiados-2{
+    border-radius: 50%;
+    border-color: black;
+    border-width: 10px;
+    border-style: solid;
+}
+
+.color-fondo-amarillo{
+    background-color:yellow;
+}
+
+.color-fondo-azul{
+background-color: blue;
+}
+
+.color-fondo-rojo{
+background-color: red;
+
+}

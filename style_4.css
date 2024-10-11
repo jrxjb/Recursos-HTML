@@ -8,10 +8,52 @@
     color:blueviolet;
 }
 
-
+/* losnombres genericos como fantasy no llevan "" */
 .class-tamaño1{
     font-size:30px;
     color:blue;
-    
+    font-family:fantasy;
 }
 
+.class-tamaño2{
+    font-size:15px;
+    color:rgb(255, 0, 13);
+    font-family:Verdana;
+}
+
+/* Reemplaza <uniquifier> con un nombre de clase único y descriptivo */
+.GF_1_edu-au-vic-wa-nt-guides-titulo {
+    font-family: "Edu AU VIC WA NT Guides", cursive;
+    font-optical-sizing: auto;
+    /* Reemplaza <weight> con un valor entre 400 y 700 */
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  .GF_2_sixtyfour-convergence {
+    font-family: "Sixtyfour Convergence", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    font-variation-settings:
+      "BLED" 0,
+      "SCAN" 0,
+      "XELA" 0,
+      "YELA" 0;
+  }
+
+  /* css por id */
+#titulo-1{
+    font-size: 30px;
+    color: green;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+
+#gatoYlasana{
+    padding: 15px;
+    background-color: yellow;
+    border-color: purple;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 50%;
+}
