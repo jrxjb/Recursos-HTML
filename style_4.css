@@ -80,3 +80,22 @@ border-color:rgb(241, 235, 235);
 border-style: solid;
 
 }
+
+/* 
+imag[alt]{
+} 
+*/
+
+[type="radio"]{
+    margin:15px;
+    } 
+
+input[type="checkbox"]{
+    margin:10px;
+}
+
+a[href="https://github.com/jrxjb"]{
+    text-decoration:none;
+    color: chartreuse;
+    font-weight: bold;
+}
