@@ -57,3 +57,26 @@
     border-width: 2px;
     border-radius: 50%;
 }
+
+.class-padding-direfentes-bordes{
+    padding-left: 15px;
+    padding-top: 10px;
+    background-color:blue;
+    border-color: purple;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 10px;
+
+}
+
+/* Margin */
+
+.class-padding-direfentes-bordes-2{
+margin: 10px;
+padding: 10px;
+background-color: yellow;
+border-width: 10px;
+border-color:rgb(241, 235, 235);
+border-style: solid;
+
+}
