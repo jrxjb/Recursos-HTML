@@ -1,0 +1,31 @@
+div{
+    border: 1px solid;
+    opacity: .9 ;
+    width: 200px;
+    height: 200px;
+    background-color: #09f;
+    margin-top: -10px;
+    box-shadow:  0 0 5px #000000dd;
+    position: relative;
+}
+
+div:first-child{
+    background: #f90;
+    z-index: 1;
+}
+
+div:nth-child(2){
+    background: #0f9;
+}
+
+div:last-child{
+    background: #f09;
+}
+
+section{
+    border: 5px solid blueviolet;
+    width: 250px;
+    height: 700px;
+    box-sizing: border-box;
+    }
+    
